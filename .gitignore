@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# educational files
+/src/test_App.js
+/src/components/users/old_UserBox.js
+/src/components/users/old_User.js
+/src/components/layout/old_Navbar.js
