@@ -25,10 +25,9 @@ class App extends Component {
 
    // Search for GitHub Users
    searchUsers = async text => {
-      console.log('Test');
-      // this.setState({ loading: true });
-      // const response = await axios.get(`/search/users?q=${text}`);
-      // this.setState({ user: response.data.items, loading: false })
+      this.setState({ loading: true });
+      const response = await axios.get(`/search/users?q=${text}`);
+      this.setState({ user: response.data.items, loading: false })
       //console.log(text); // Testing parameter input
    }
 
